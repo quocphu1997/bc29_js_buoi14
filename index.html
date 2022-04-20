@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Bài 1 -->
+  <div class="container">
+    <div class="bai_js14 pt-5">
+      <p>Bài 1 nhập 3 số nguyên, xuất ra theo thứ tự tăng dần</p>
+      <p>Nhập vào 3 nguyên</p>
+      <p>Số nguyên 1 <input id="so1" type="number"></p>
+      <p>Số nguyên 2 <input id="so2" type="number"></p>
+      <p>Số nguyên 3 <input id="so3" type="number"></p>
+    </div>
+    <button type="button" onclick="bai_1()" class="btn btn-danger">Xuất ra</button>
+    <div id="kq1" class="bg-light"></div>
+  </div>
+  <!-- Bài 2 -->
+  <div class="container py-2">
+    <div class="bai_js14 pt-5">
+      <p>Bài 2 Chào hỏi thành viên trong gia đình</p>
+      <p>Bạn Là <input id="n_ten" type="text"></p>
+      <button type="button" class="btn btn-secondary" onclick="xinchao()">Xác nhận</button>
+    </div>
+    <div id="kq2"></div>
+  </div>
+  <!-- Bài 3 -->
+  <div class="container py-2">
+    <div class="bai_js14 pt-5">
+      <p>Bài 3 nhập ba số nguyên, kiểm tra có bao nhiêu số chẳng ,lẻ</p>
+      <p>Nhập vào 3 số nguyên</p>
+      <p>Số nguyên 1 <input id="s1" type="number"></p>
+      <p>Số nguyên 2 <input id="s2" type="number"></p>
+      <p>Số nguyên 3 <input id="s3" type="number"></p>
+    </div>
+    <button type="button" onclick="chan_le()" class="btn btn-primary">Xuất ra</button>
+    <div id="kq3" class="bg-light"></div>
+  </div>
+  <!-- Bài 4 -->
+  <div class="container py-2">
+    <div class="bai_js14 pt-5">
+        <p>Bài 4 nhập 3 cạnh tam giác,xem đó là tam giác gì</p>
+        <p>Nhập cạnh tam giác <input id="canh_a" type="number"> cm</p>
+        <p>Nhập cạnh tam giác <input id="canh_b" type="number"> cm</p>
+        <p>Nhập cạnh tam giác <input id="canh_c" type="number"> cm</p>
+    </div>
+    <button type="button" onclick="check_tamgiac()" class="btn btn-primary">Xuất ra</button>
+    <div id="kq4" class="bg-light"></div>
+  </div>
+  <script src="./js/main.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
